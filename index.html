@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Carlos Prosdoskimi">
+        <title>Jokenpô</title>
+        <link rel="stylesheet" type="text/css" href="jokenpo.css">
+        <script type="text/javascript" src="jokenpo.js"></script>
+    </head>
+    
+    <body>
+        <header><h3>Jokenpô</h3></header>
+        <main>
+            <article class="categorias">
+                <div class="pedra" onclick="Jokenpo(1)">
+                    Pedra
+                </div>
+                <div class="papel" onclick="Jokenpo(2)">
+                    Papel
+                </div>
+                <div class="tesoura" onclick="Jokenpo(3)">
+                    Tesoura
+                </div>
+            </article>
+            <article class="escolhas">
+                <div>
+                    <h4>Sua Escolha:</h4>        
+                    <p id="escolha"></p>
+                </div>
+                <div>
+                    <h4>Resultado:</h4>        
+                    <p id="resultado"></p>
+                </div>
+            </article>
+        </main>
+    </body>
+    
+</html>

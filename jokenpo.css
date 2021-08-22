@@ -1,0 +1,86 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    margin: 0px !important;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #b3b3b3;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.35);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h3{
+    font-size: 1.5rem !important;
+    color: #555;
+}
+.categorias{
+    width: 80%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pedra, .papel, .tesoura{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #b3b3b3;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.35);
+    border-radius: 10px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+}
+.pedra:hover{
+    color: transparent;
+    background-image: url(pedra.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.papel:hover{
+    color: transparent;
+    background-image: url(papel.png);
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tesoura:hover{
+    color: transparent;
+    background-image: url(tesoura.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.escolhas{
+    margin-top: 20px;
+    background: #fff;
+    width: 100%;
+    height: 64vh;
+    box-shadow: 1px -1px 10px rgba(0,0,0,0.4);
+    padding: 20px;
+}
+.escolhas div{
+    width: 75%;
+    background: #e5e5e5;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
